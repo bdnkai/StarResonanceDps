@@ -80,7 +80,7 @@
             label1.BackColor = Color.Transparent;
             label1.ColorScheme = AntdUI.TAMode.Dark;
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("SAO UI TT", 12F);
+            label1.Font = new Font("SAO UI TT", 14F);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
             label1.Size = new Size(1213, 52);
@@ -148,7 +148,7 @@
             table_DpsDetailDataTable.BackgroundImageLayout = ImageLayout.Zoom;
             table_DpsDetailDataTable.Dock = DockStyle.Fill;
             table_DpsDetailDataTable.EmptyImage = Properties.Resources.cancel_hover;
-            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Regular, GraphicsUnit.Point, 134);
             table_DpsDetailDataTable.Gap = 8;
             table_DpsDetailDataTable.Gaps = new Size(8, 8);
             table_DpsDetailDataTable.Location = new Point(0, 40);
@@ -181,7 +181,7 @@
             segmented1.BarPosition = AntdUI.TAlignMini.Bottom;
             segmented1.BarSize = 0F;
             segmented1.Dock = DockStyle.Fill;
-            segmented1.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            segmented1.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             segmented1.Full = true;
             segmented1.IconGap = 0F;
             segmentedItem1.Text = "全职业";
@@ -215,7 +215,7 @@
             // 
             button1.ColorScheme = AntdUI.TAMode.Light;
             button1.DefaultBack = Color.FromArgb(153, 204, 255);
-            button1.Font = new Font("阿里妈妈数黑体", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            button1.Font = new Font("阿里妈妈数黑体", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             button1.ForeColor = Color.White;
             button1.Location = new Point(18, 9);
             button1.Name = "button1";
@@ -229,7 +229,7 @@
             // 
             divider3.BackColor = Color.Transparent;
             divider3.Dock = DockStyle.Top;
-            divider3.Font = new Font("阿里妈妈数黑体", 9F, FontStyle.Bold);
+            divider3.Font = new Font("阿里妈妈数黑体", 14F, FontStyle.Bold);
             divider3.Location = new Point(0, 0);
             divider3.Name = "divider3";
             divider3.OrientationMargin = 1F;
@@ -266,7 +266,7 @@
             // label2
             // 
             label2.Dock = DockStyle.Bottom;
-            label2.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label2.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Regular, GraphicsUnit.Point, 134);
             label2.Location = new Point(0, 933);
             label2.Name = "label2";
             label2.Size = new Size(1213, 36);

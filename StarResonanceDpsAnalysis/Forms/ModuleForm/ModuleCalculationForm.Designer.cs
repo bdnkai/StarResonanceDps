@@ -84,7 +84,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Margin = new Padding(2);
             TitleText.Name = "TitleText";
@@ -141,7 +141,7 @@
             // 
             // select1
             // 
-            select1.Font = new Font("HarmonyOS Sans SC", 9F);
+            select1.Font = new Font("HarmonyOS Sans SC", 14F);
             select1.Items.AddRange(new object[] { "全部", "攻击", "辅助", "守护" });
             select1.List = true;
             select1.Location = new Point(7, 699);
@@ -159,7 +159,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("HarmonyOS Sans SC", 9F);
+            button1.Font = new Font("HarmonyOS Sans SC", 14F);
             button1.Location = new Point(9, 757);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
@@ -438,7 +438,7 @@
             // 
             // select3
             // 
-            select3.Font = new Font("HarmonyOS Sans SC", 9F);
+            select3.Font = new Font("HarmonyOS Sans SC", 14F);
             select3.Items.AddRange(new object[] { "属性优先", "战力优先" });
             select3.List = true;
             select3.Location = new Point(175, 699);

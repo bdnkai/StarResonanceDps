@@ -59,7 +59,7 @@ namespace StarResonanceDpsAnalysis.Plugin
                 return height;
             }
         }
-        public static Size ProgressBarImageSize = new Size(25, 25);
+        public static Size ProgressBarImageSize = new Size(30, 30);
         public static RenderContent.ContentOffset ProgressBarImage
         {
             get
@@ -73,12 +73,12 @@ namespace StarResonanceDpsAnalysis.Plugin
                 return new RenderContent.ContentOffset { X = x, Y = 0 };
             }
         }
-        public static RenderContent.ContentOffset ProgressBarNmae = new RenderContent.ContentOffset { X = 88, Y = 1 };
+        public static RenderContent.ContentOffset ProgressBarNmae = new RenderContent.ContentOffset { X = 88, Y = 0 };
         public static RenderContent.ContentOffset ProgressBarHarm
         {
             get
             {
-                int x = ProgressBarProportion.X - 50;
+                int x = ProgressBarProportion.X - 75;
                 switch(dpi)
                 {
                     case 1:
@@ -102,17 +102,17 @@ namespace StarResonanceDpsAnalysis.Plugin
 
                 }
                 // if (SomeFlag) y = 10; // 需要更多条件时继续写
-                return new RenderContent.ContentOffset { X = x, Y = 0 };
+                return new RenderContent.ContentOffset { X = -75, Y = 0 };
             }
         }
-        public static RenderContent.ContentOffset ProgressBarProportion = new RenderContent.ContentOffset { X = -6, Y = 0 };
+        public static RenderContent.ContentOffset ProgressBarProportion = new RenderContent.ContentOffset { X = 2, Y = 0 };
         #region 字体
         /// <summary>
         /// 进度条字体
         /// </summary>
         public static Font ProgressBarFont
         {
-            get => HandledResources.GetHarmonyOS_SansFont(9);
+            get => HandledResources.GetHarmonyOS_SansFont(21);
         }
 
         /// <summary>
@@ -121,7 +121,7 @@ namespace StarResonanceDpsAnalysis.Plugin
         public static Font DigitalFont
         {
 
-            get => HandledResources.GetHarmonyOS_SansFont(9);
+            get => HandledResources.GetHarmonyOS_SansFont(16);
         }
 
         /// <summary>
@@ -129,7 +129,7 @@ namespace StarResonanceDpsAnalysis.Plugin
         /// </summary>
         public static Font SaoFont
         {
-            get => HandledResources.GetSAOWelcomeTTFont(10);
+            get => HandledResources.GetSAOWelcomeTTFont(16);
         }
 
 
@@ -138,7 +138,7 @@ namespace StarResonanceDpsAnalysis.Plugin
         /// </summary>
         public static Font TitleFont
         {
-            get => HandledResources.GetSAOWelcomeTTFont(12);
+            get => HandledResources.GetSAOWelcomeTTFont(16);
         }
 
         /// <summary>
@@ -146,12 +146,12 @@ namespace StarResonanceDpsAnalysis.Plugin
         /// </summary>
         public static Font HeaderFont
         {
-            get => HandledResources.GetAliMaMaShuHeiTiFont(10);
+            get => HandledResources.GetAliMaMaShuHeiTiFont(16);
         }
 
         public static Font BoldHarmonyFont
         {
-            get => HandledResources.GetHarmonyOS_SansBoldFont(9);
+            get => HandledResources.GetHarmonyOS_SansBoldFont(11);
         }
 
         /// <summary>
@@ -159,7 +159,7 @@ namespace StarResonanceDpsAnalysis.Plugin
         /// </summary>
         public static Font ContentFont
         {
-            get => HandledResources.GetHarmonyOS_SansFont(9);
+            get => HandledResources.GetHarmonyOS_SansFont(16);
         }
 
         #endregion

@@ -81,7 +81,7 @@
             label1.BackColor = Color.Transparent;
             label1.ColorScheme = AntdUI.TAMode.Dark;
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("SAO UI TT", 12F);
+            label1.Font = new Font("SAO UI TT", 14F);
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
             label1.Size = new Size(1130, 52);
@@ -183,7 +183,7 @@
             segmented1.BarPosition = AntdUI.TAlignMini.Bottom;
             segmented1.BarSize = 0F;
             segmented1.Dock = DockStyle.Fill;
-            segmented1.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            segmented1.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             segmented1.Full = true;
             segmented1.IconGap = 0F;
             segmentedItem1.Text = "单次伤害记录";
@@ -206,7 +206,7 @@
             table_DpsDetailDataTable.Dock = DockStyle.Fill;
             table_DpsDetailDataTable.EmptyImage = Properties.Resources.cancel_hover;
             table_DpsDetailDataTable.FixedHeader = false;
-            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             table_DpsDetailDataTable.Gap = 8;
             table_DpsDetailDataTable.Gaps = new Size(8, 8);
             table_DpsDetailDataTable.Location = new Point(0, 0);
@@ -268,7 +268,7 @@
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label5.BackColor = Color.Transparent;
             label5.ColorScheme = AntdUI.TAMode.Dark;
-            label5.Font = new Font("HarmonyOS Sans SC", 9F);
+            label5.Font = new Font("HarmonyOS Sans SC", 14F);
             label5.Location = new Point(810, 71);
             label5.Name = "label5";
             label5.Size = new Size(123, 45);
@@ -280,7 +280,7 @@
             label2.Anchor = AnchorStyles.Top;
             label2.BackColor = Color.Transparent;
             label2.ColorScheme = AntdUI.TAMode.Dark;
-            label2.Font = new Font("HarmonyOS Sans SC", 9F);
+            label2.Font = new Font("HarmonyOS Sans SC", 14F);
             label2.Location = new Point(409, 71);
             label2.Name = "label2";
             label2.Size = new Size(115, 45);
@@ -291,7 +291,7 @@
             // 
             label3.BackColor = Color.Transparent;
             label3.ColorScheme = AntdUI.TAMode.Dark;
-            label3.Font = new Font("HarmonyOS Sans SC", 9F);
+            label3.Font = new Font("HarmonyOS Sans SC", 14F);
             label3.Location = new Point(22, 71);
             label3.Name = "label3";
             label3.Size = new Size(114, 45);
@@ -303,7 +303,7 @@
             label6.Anchor = AnchorStyles.Top;
             label6.BackColor = Color.Transparent;
             label6.ColorScheme = AntdUI.TAMode.Dark;
-            label6.Font = new Font("HarmonyOS Sans SC Medium", 10F, FontStyle.Bold);
+            label6.Font = new Font("HarmonyOS Sans SC Medium", 14F, FontStyle.Bold);
             label6.Location = new Point(402, 22);
             label6.Name = "label6";
             label6.Size = new Size(271, 30);

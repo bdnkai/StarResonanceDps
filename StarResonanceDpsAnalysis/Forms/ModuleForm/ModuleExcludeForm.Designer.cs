@@ -96,7 +96,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Name = "TitleText";
             TitleText.Size = new Size(387, 38);
@@ -130,7 +130,7 @@
             groupBox5.Controls.Add(chkExtremeLifeConvergence);
             groupBox5.Controls.Add(chkExtremeDamageStack);
             groupBox5.Controls.Add(chkExtremeFlexibleMovement);
-            groupBox5.Font = new Font("HarmonyOS Sans SC", 9F);
+            groupBox5.Font = new Font("HarmonyOS Sans SC", 14F);
             groupBox5.Location = new Point(3, 598);
             groupBox5.Name = "groupBox5";
             groupBox5.Size = new Size(350, 286);
@@ -216,7 +216,7 @@
             groupBox2.Controls.Add(chkPhysicalResistance);
             groupBox2.Controls.Add(chkSpecialHealingBoost);
             groupBox2.Controls.Add(chkExpertHealingBoost);
-            groupBox2.Font = new Font("HarmonyOS Sans SC", 9F);
+            groupBox2.Font = new Font("HarmonyOS Sans SC", 14F);
             groupBox2.Location = new Point(3, 427);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(350, 156);
@@ -266,7 +266,7 @@
             groupBox4.Controls.Add(chkAgilityBoost);
             groupBox4.Controls.Add(chkIntelligenceBoost);
             groupBox4.Controls.Add(chkCastingFocus);
-            groupBox4.Font = new Font("HarmonyOS Sans SC", 9F);
+            groupBox4.Font = new Font("HarmonyOS Sans SC", 14F);
             groupBox4.Location = new Point(3, 235);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(350, 177);
@@ -317,7 +317,7 @@
             groupBox1.Controls.Add(chkSpecialAttackDamage);
             groupBox1.Controls.Add(chkCriticalFocus);
             groupBox1.Controls.Add(chkLuckFocus);
-            groupBox1.Font = new Font("HarmonyOS Sans SC", 9F);
+            groupBox1.Font = new Font("HarmonyOS Sans SC", 14F);
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(350, 217);

@@ -113,7 +113,7 @@
             // 
             labelMessage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             labelMessage.BackColor = Color.Transparent;
-            labelMessage.Font = new Font("HarmonyOS Sans SC", 9F);
+            labelMessage.Font = new Font("HarmonyOS Sans SC", 14F);
             labelMessage.Location = new Point(90, 104);
             labelMessage.Name = "labelMessage";
             labelMessage.Size = new Size(369, 211);

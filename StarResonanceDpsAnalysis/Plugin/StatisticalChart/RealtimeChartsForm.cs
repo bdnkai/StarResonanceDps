@@ -43,7 +43,7 @@ namespace StarResonanceDpsAnalysis.Forms
             StartPosition = FormStartPosition.CenterScreen;
 
             // 设置标准字体
-            Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular);
+            Font = new Font("Microsoft YaHei UI", 14F, FontStyle.Regular);
 
             InitializeControls();
             InitializeAutoRefreshTimer();

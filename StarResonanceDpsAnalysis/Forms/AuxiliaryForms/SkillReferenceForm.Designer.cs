@@ -61,7 +61,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Name = "TitleText";
             TitleText.Size = new Size(1101, 52);
@@ -117,7 +117,7 @@
             table_DpsDetailDataTable.Dock = DockStyle.Fill;
             table_DpsDetailDataTable.EmptyImage = Properties.Resources.cancel_hover;
             table_DpsDetailDataTable.FixedHeader = false;
-            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             table_DpsDetailDataTable.Gap = 8;
             table_DpsDetailDataTable.Gaps = new Size(8, 8);
             table_DpsDetailDataTable.Location = new Point(0, 106);
@@ -131,7 +131,7 @@
             // divider1
             // 
             divider1.Dock = DockStyle.Top;
-            divider1.Font = new Font("HarmonyOS Sans SC", 9F);
+            divider1.Font = new Font("HarmonyOS Sans SC", 14F);
             divider1.Location = new Point(0, 52);
             divider1.Name = "divider1";
             divider1.Size = new Size(1101, 54);

@@ -63,7 +63,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Name = "TitleText";
             TitleText.Size = new Size(549, 38);
@@ -131,7 +131,7 @@
             table_DpsDetailDataTable.BackgroundImageLayout = ImageLayout.Zoom;
             table_DpsDetailDataTable.Dock = DockStyle.Fill;
             table_DpsDetailDataTable.EmptyImage = Properties.Resources.cancel_hover;
-            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            table_DpsDetailDataTable.Font = new Font("HarmonyOS Sans SC", 14F, FontStyle.Regular, GraphicsUnit.Point, 134);
             table_DpsDetailDataTable.Gap = 8;
             table_DpsDetailDataTable.Gaps = new Size(8, 8);
             table_DpsDetailDataTable.Location = new Point(0, 38);

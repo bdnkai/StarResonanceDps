@@ -48,7 +48,7 @@
             sortedProgressBarList1.Margin = new Padding(5, 4, 5, 4);
             sortedProgressBarList1.Name = "sortedProgressBarList1";
             sortedProgressBarList1.OrderColor = Color.Black;
-            sortedProgressBarList1.OrderFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            sortedProgressBarList1.OrderFont = new Font("宋体", 14F, FontStyle.Regular, GraphicsUnit.Point, 134);
             sortedProgressBarList1.OrderImageAlign = Control.GDI.RenderContent.ContentAlign.MiddleLeft;
             sortedProgressBarList1.OrderImageRenderSize = new Size(0, 0);
             sortedProgressBarList1.OrderImages = null;

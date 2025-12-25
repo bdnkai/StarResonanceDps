@@ -218,5 +218,10 @@ namespace StarResonanceDpsAnalysis.Forms
                 linkLabel_GitHub.VisitedLinkColor = linkLabel_QQGroup.VisitedLinkColor = linkLabel_NodeJsProject.VisitedLinkColor = Color.MediumPurple;
             }
         }
+
+        private void label_NowVersionDevelopers_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

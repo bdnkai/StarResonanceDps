@@ -81,7 +81,7 @@ namespace StarResonanceDpsAnalysis.Forms
             pageHeader1.Mode = TAMode.Dark;
             pageHeader1.Name = "pageHeader1";
             pageHeader1.Size = new Size(527, 25);
-            pageHeader1.SubFont = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            pageHeader1.SubFont = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             pageHeader1.SubGap = 0;
             pageHeader1.SubText = "当前伤害";
             pageHeader1.TabIndex = 16;
@@ -92,7 +92,7 @@ namespace StarResonanceDpsAnalysis.Forms
             PilingModeCheckbox.AutoSizeMode = TAutoSize.Width;
             PilingModeCheckbox.BackColor = Color.Transparent;
             PilingModeCheckbox.Dock = DockStyle.Right;
-            PilingModeCheckbox.Font = new Font("Alimama ShuHeiTi", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            PilingModeCheckbox.Font = new Font("Alimama ShuHeiTi", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             PilingModeCheckbox.ForeColor = Color.White;
             PilingModeCheckbox.Location = new Point(305, 0);
             PilingModeCheckbox.Name = "PilingModeCheckbox";
@@ -215,7 +215,7 @@ namespace StarResonanceDpsAnalysis.Forms
             // label2
             // 
             label2.Dock = DockStyle.Right;
-            label2.Font = new Font("Alimama ShuHeiTi", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label2.Font = new Font("Alimama ShuHeiTi", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             label2.Location = new Point(394, 3);
             label2.Name = "label2";
             label2.Size = new Size(133, 31);
@@ -226,7 +226,7 @@ namespace StarResonanceDpsAnalysis.Forms
             // BattleTimeText
             // 
             BattleTimeText.Dock = DockStyle.Left;
-            BattleTimeText.Font = new Font("Alimama ShuHeiTi", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            BattleTimeText.Font = new Font("Alimama ShuHeiTi", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             BattleTimeText.Location = new Point(38, 3);
             BattleTimeText.Margin = new Padding(2);
             BattleTimeText.Name = "BattleTimeText";
@@ -237,7 +237,7 @@ namespace StarResonanceDpsAnalysis.Forms
             // label1
             // 
             label1.Dock = DockStyle.Left;
-            label1.Font = new Font("Alimama ShuHeiTi", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label1.Font = new Font("Alimama ShuHeiTi", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             label1.Location = new Point(0, 3);
             label1.Margin = new Padding(2);
             label1.Name = "label1";
@@ -264,7 +264,7 @@ namespace StarResonanceDpsAnalysis.Forms
             sortedProgressBarList1.Margin = new Padding(8, 6, 8, 6);
             sortedProgressBarList1.Name = "sortedProgressBarList1";
             sortedProgressBarList1.OrderColor = Color.Black;
-            sortedProgressBarList1.OrderFont = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            sortedProgressBarList1.OrderFont = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             sortedProgressBarList1.OrderImageAlign = Control.GDI.RenderContent.ContentAlign.MiddleLeft;
             sortedProgressBarList1.OrderImageRenderSize = new Size(0, 0);
             sortedProgressBarList1.OrderImages = null;
@@ -296,7 +296,7 @@ namespace StarResonanceDpsAnalysis.Forms
             NpcTakeDamageButton.Anchor = AnchorStyles.Top;
             NpcTakeDamageButton.DefaultBack = Color.FromArgb(247, 247, 247);
             NpcTakeDamageButton.DefaultBorderColor = Color.Wheat;
-            NpcTakeDamageButton.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            NpcTakeDamageButton.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             NpcTakeDamageButton.Icon = (Image)resources.GetObject("NpcTakeDamageButton.Icon");
             NpcTakeDamageButton.IconRatio = 0.8F;
             NpcTakeDamageButton.Location = new Point(372, 8);
@@ -312,7 +312,7 @@ namespace StarResonanceDpsAnalysis.Forms
             AlwaysInjuredButton.Anchor = AnchorStyles.Top;
             AlwaysInjuredButton.DefaultBack = Color.FromArgb(247, 247, 247);
             AlwaysInjuredButton.DefaultBorderColor = Color.Wheat;
-            AlwaysInjuredButton.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            AlwaysInjuredButton.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             AlwaysInjuredButton.Icon = (Image)resources.GetObject("AlwaysInjuredButton.Icon");
             AlwaysInjuredButton.Location = new Point(262, 8);
             AlwaysInjuredButton.Margin = new Padding(4);
@@ -327,7 +327,7 @@ namespace StarResonanceDpsAnalysis.Forms
             // 
             TotalTreatmentButton.Anchor = AnchorStyles.Top;
             TotalTreatmentButton.DefaultBack = Color.FromArgb(247, 247, 247);
-            TotalTreatmentButton.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            TotalTreatmentButton.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             TotalTreatmentButton.Icon = (Image)resources.GetObject("TotalTreatmentButton.Icon");
             TotalTreatmentButton.Location = new Point(148, 8);
             TotalTreatmentButton.Margin = new Padding(4);
@@ -342,7 +342,7 @@ namespace StarResonanceDpsAnalysis.Forms
             // 
             TotalDamageButton.Anchor = AnchorStyles.Top;
             TotalDamageButton.DefaultBack = Color.FromArgb(223, 223, 223);
-            TotalDamageButton.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            TotalDamageButton.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point, 134);
             TotalDamageButton.Icon = (Image)resources.GetObject("TotalDamageButton.Icon");
             TotalDamageButton.Location = new Point(38, 8);
             TotalDamageButton.Name = "TotalDamageButton";
@@ -368,7 +368,7 @@ namespace StarResonanceDpsAnalysis.Forms
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(pageHeader1);
-            Font = new Font("HarmonyOS Sans SC", 8F);
+            Font = new Font("HarmonyOS Sans SC", 14F);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
             Name = "DpsStatisticsForm";

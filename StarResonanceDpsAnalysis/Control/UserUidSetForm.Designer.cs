@@ -43,7 +43,7 @@
             // 
             // input2
             // 
-            input2.Font = new Font("阿里妈妈数黑体", 8F, FontStyle.Bold);
+            input2.Font = new Font("阿里妈妈数黑体", 14F, FontStyle.Bold);
             input2.Location = new Point(72, 204);
             input2.Name = "input2";
             input2.PrefixText = "Name：";
@@ -68,7 +68,7 @@
             // 
             // input1
             // 
-            input1.Font = new Font("阿里妈妈数黑体", 8F, FontStyle.Bold);
+            input1.Font = new Font("阿里妈妈数黑体", 14F, FontStyle.Bold);
             input1.Location = new Point(72, 308);
             input1.Name = "input1";
             input1.PrefixText = "职业：";
@@ -100,7 +100,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Name = "TitleText";
             TitleText.Size = new Size(471, 52);
@@ -153,7 +153,7 @@
             // 
             // select1
             // 
-            select1.Font = new Font("阿里妈妈数黑体", 8F, FontStyle.Bold);
+            select1.Font = new Font("阿里妈妈数黑体", 14F, FontStyle.Bold);
             select1.Items.AddRange(new object[] { "神射手", "神盾骑士", "雷影剑士", "冰魔导师", "青岚骑士", "森语者", "巨刃守护者", "灵魂乐手", "未知职业" });
             select1.List = true;
             select1.Location = new Point(72, 304);

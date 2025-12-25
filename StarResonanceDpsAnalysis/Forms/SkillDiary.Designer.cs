@@ -61,7 +61,7 @@
             TitleText.BackColor = Color.Transparent;
             TitleText.ColorScheme = AntdUI.TAMode.Dark;
             TitleText.Dock = DockStyle.Fill;
-            TitleText.Font = new Font("SAO Welcome TT", 12F, FontStyle.Bold);
+            TitleText.Font = new Font("SAO Welcome TT", 14F, FontStyle.Bold);
             TitleText.Location = new Point(0, 0);
             TitleText.Name = "TitleText";
             TitleText.Size = new Size(727, 52);
@@ -127,7 +127,7 @@
             // 
             label10.BackColor = Color.Transparent;
             label10.Dock = DockStyle.Bottom;
-            label10.Font = new Font("HarmonyOS Sans SC", 9F);
+            label10.Font = new Font("HarmonyOS Sans SC", 14F);
             label10.Location = new Point(0, 752);
             label10.Name = "label10";
             label10.Prefix = "温馨提示：";
